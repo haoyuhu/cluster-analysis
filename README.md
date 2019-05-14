@@ -6,8 +6,6 @@ comments: true
 
 参考自[初识聚类算法:K均值、凝聚层次聚类和DBSCAN](http://blog.sina.com.cn/s/blog_62186b460101ard2.html)，[模糊聚类FCM算法](http://www.sjsjw.com/kf_other/article/030919ABA018874.asp)。
 
-近期做完了labmu的tunet3.0，总算有时间学习一些东西了。目前想学的有聚类分析、图像识别算法和计算机网络方面的知识。在暑假实习期间，开始着手游戏编程。
-
 ## 聚类的目的
 将数据划分为若干个簇，簇内相似性大，簇间相似性小，聚类效果好。用于从数据中提取信息和规律。
 
