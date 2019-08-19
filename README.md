@@ -596,3 +596,7 @@ main()
 * 其二，k-means聚类必须是**完全聚类**，对距离的选择也可以依据问题而定。
 * 其三，实际上凝聚层次聚类和基于密度的dbscan聚类都有一个**合并的过程**，对于这种合并最好的算法应该是**查并集**，其时间复杂度为**`O(n * f(n))`**，对于目前常见的大整数n，**`f(n) < 4`**。但如果过于追求效率，那么就违背了python语言开发和分析数据的优势。
 * 其四，凝聚层次聚类和基于密度的dbscan聚类都对**合并的程度**有一定要求。凝聚层次聚类通过**`mergeRatio`**来确定合并的比例；而dbscan是通过**`Eps`**和**`minPointsNumber`**来确定聚类的粒度。
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/HaoyuHu/clusterAnalysis.svg)](https://starchart.cc/HaoyuHu/clusterAnalysis)
+
