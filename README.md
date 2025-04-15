@@ -38,7 +38,7 @@ comments: true
 * 其三，要求簇形状接近圆形。
 * 要求完全聚类的情况。
 
-![k-Means++](http://img.blog.csdn.net/20150619001412122)
+![k-Means++](./kMeansPlusPlus.png)
 
 **python代码**
 
@@ -169,7 +169,7 @@ main()
 * 判断聚类中心变化幅值是否小于给定的误差限。如不满足返回步骤2，否则退出循环。
 * 打印聚类中心轨迹和聚类结果。
 
-![FCM](http://img.blog.csdn.net/20150619001547306)
+![FCM](fuzzyCMeansClustering.png)
 
 **python代码**
 
@@ -337,7 +337,7 @@ main()
 * 合并操作不能撤销。
 * 应注意，合并操作必须有一个合并限制比例，否则可能发生过度合并导致所有分类中心聚集，造成聚类失败。
 
-![凝聚层次聚类](http://img.blog.csdn.net/20150619001618804)
+![凝聚层次聚类](agglomerativeHierarchical.png)
 
 **python代码**
 
@@ -460,10 +460,10 @@ DBscan是一种基于密度的聚类算法。因此首先应定义密度的概�
 * 可排除噪声点的干扰。
 * 适合形状不规则，不要求聚类完全的情况。
 * 合并操作不能撤销。
-* `minPointsNumberWithinBoundary`和`Eps`决定了聚类的粒度和范围，当`Eps`增大或`minPointsNumberWithinBoundary`减小时，都会使聚类的粒度更粗，形成范围更大的簇。对于特定的问题，需要调整**`Eps`**和**`minPointsNumberWithinBoundary`**以满足聚类的要求。
+* `minPointsNumberWithinBoundary`和`Eps`决定了聚类的粒度和范围，当`Eps`增大或`minPointsNumberWithinBoundary`减小时，都会使聚类的粒度更粗，形成范围更大的簇。对于特定的问题，需要调整`Eps`和`minPointsNumberWithinBoundary`以满足聚类的要求。
 * 基于密度的聚类一定程度上回避了距离的计算，可以提高效率。
 
-![dbscan](http://img.blog.csdn.net/20150619001645544)
+![dbscan](./dbscan.png)
 
 **python代码**
 
